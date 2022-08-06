@@ -1,0 +1,12 @@
+I would recommend against:
+
+- waiting until the prototype is perfect before testing the software
+because this you should practise test-driven development which involves
+writing tests before creating prototypes. This way, you are able to see
+if you are heading in the right direction as you create your program, rather
+than creating a whole prototype and then finding various bugs and issues to fix.
+
+- no-one who practices Agile uses Object-Oriented Programming (OOP): This is false
+because Agile softare development is a process that applies to all programming
+languages and paradigms (such as OOP). It is a software engineering practice that
+allows you to create strong programs that are constantly improved.

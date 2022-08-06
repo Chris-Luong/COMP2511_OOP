@@ -1,0 +1,11 @@
+The most suitable Design Pattern to model this system would be the Composite design pattern 
+since the organisational hierarchy consists of similar smaller hierachies.Here we have
+organisational units within organisational units (i.e. Divisions contain Faculties which contain Schools,
+all of which have a similar structure).
+The primary benefit of using the Composite pattern is that the way the smaller groups are implemented would be
+similar to the way the larger head groups are implemented.
+
+We can implement the Composite pattern, by having the UNSW organisational hierarchy being the client, and the Organisational
+Units as the components/composites. The Divisions and Faculties are the components that have a head, manager and supporting staff affiliated
+with the unit. These employees would be subcomponent or "leaves" of Divisions. Schools would be slightly different to the other Organisational
+Units as they are the smallest group and don't contain other Orangisational Units, with some different functionality - the ability to offer courses.

@@ -1,0 +1,6 @@
+In a First in, First Out Queue ADT, dequeueing an element
+will always involve the least recent element being removed from the
+queue. Therefore, there is no need to provide public E dequeue(E element) {}
+in the class Queue with an element parameter, since the element being removed will
+always be the least recent, regardless of what parameter is provided.
+Thus, there is unnecessary/useless code.

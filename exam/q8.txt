@@ -1,0 +1,11 @@
+a) The UML is missing subclass for each type e.g. standard satellite
+b) Invalid position could be inputed in both addDevice() and addSatellite() since
+these are not checked.
+c) In the UML, the controller has variables for each type of device and satellite
+as well as other variables which is not good as other classes should be responsible
+for tasks more relevant to them. The lists for devices and satellites could be placed
+in the Device and Satellite class with getters and setters for the controller to use.
+
+The Sample Code uses an if statement for each device and satellite which would be
+problematic when more and more types are added. This can be resolved with a Strategy
+pattern which would make a new class for each type of satellite.

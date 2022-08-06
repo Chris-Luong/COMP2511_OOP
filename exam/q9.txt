@@ -1,0 +1,16 @@
+a) and b)
+- Bad variable/method naming: getFriends in WasteBookController finds the number
+of friends a person has, returning an int, so this method should be called
+getAmountOfFriends or something that would make the return type clearer.
+Additionally, people is a list of members so I changed this to members to
+distinguish between a member of the network and a person in real life.
+- The follow() method in WasteBookController has too much
+nesting in its for loop. The second for loop could be extracted to another
+method.
+- There is a lot of repetition of code that compares people/members which
+could be extracted into a method. This was solved by the refactoring from
+the previous method.
+
+c)
+- Iterator is updated in the methods where a new member is added to the network
+or when a member follows another memeber.

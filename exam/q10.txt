@@ -1,0 +1,5 @@
+a)
+- Changed getColumn() in Database to getColumnType() for better method
+and variable naming.
+- Changed the list for columns to a map of the column name to the
+column value.

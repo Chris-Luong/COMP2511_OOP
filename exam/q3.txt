@@ -1,0 +1,8 @@
+This is valid inheritance because it is a subclass absorbing the
+attributes and behaviours of the super class, which is the definition
+of inheritance. Additionally, the subclass of UNSWStudent is
+modifying one of the behaviours of the super class by throwing an
+error if the class time is not available, which we can assume will
+be resolved by another method that catches the error. Thus,
+the implementation of the Student and UNSWStudent classes is valid
+inheritance.

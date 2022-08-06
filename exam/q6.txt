@@ -1,0 +1,10 @@
+The most suitable design pattern for making the pizza is the Decorator pattern.
+This is because decorators are able to provide a flexible alternative to sub-classing
+for extending funcionality. Without using patterns, one could have a sub-class for
+every differnt type/variation of pizza and constantly add new sub-classes for
+different variations. However, with a Decorator pattern, the objects (pizzas)
+can be decorated multiple times in different orders (i.e. different sauces, cheese,
+etc.). It will be implemented by having the main abstract component class as the pizza,
+then concrete components which are the main types of pizzas (Hawaiian, Meatlovers, Neapolitan
+and Vegetarian). Finally, there will be the actual decorator for the cheeses, sauce, meat and
+any other toppings which can also calculate the costs.

@@ -1,0 +1,6 @@
+The example of a "an online call contains a breakout room" is an example
+of aggregation. This is because aggregation is when a class contains
+another class, which is what we have here. It is not an example of composition
+because in composition, the contained class (breakout room) is integral to
+the containing class (online call) which is not true, as online calls can
+exist without breakout rooms.

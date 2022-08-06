@@ -1,0 +1,7 @@
+In terms of design patterns, I would use a Command pattern. This is because
+one of the main benefits of this pattern is that, by transforming requests
+into objects, it can be passed as method arguments and be queued for delayed
+execution. This would suit the use case of having multiple users book the
+same room at the exact same time. This also allows for changes in the
+design of the system later on due to the pattern allowing us to decouple
+the requester from the object that performs the action of booking.

@@ -1,0 +1,5 @@
+package dungeonmania.goals;
+
+enum GoalType {
+    EXIT_ACHIEVED, ENEMIES_SPAWNERS_CLEARED, BOULDERS_ON_SWITCHES, TREASURES_COLLECTED
+}
